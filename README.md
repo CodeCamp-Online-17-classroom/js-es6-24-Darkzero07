@@ -1,8 +1,7 @@
-# js-lab-167
-### Lab 167 ES6: หาค่าa,b 1
+# js-lab-168
+### Lab 168 ES6: หาค่าa,b 2
 a และ b มีค่าเท่าไร
 
 ```JavaScript
-let a, b;
-{ a, b } = {a: 1, b: 2};
+const [, , , a, b] = [1, 2, 3];
 ```
